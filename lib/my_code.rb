@@ -10,3 +10,21 @@ def map(source)
 end
 return new_array
 end
+
+def reduce(source, starting_point = nil)
+
+if sv
+  total = starting_point
+  i = 0
+else
+  total = source[i]
+  i = 1
+end
+
+while i < source.length do
+  total += yield(total, array[i])
+  i += 1
+end
+
+total
+end
