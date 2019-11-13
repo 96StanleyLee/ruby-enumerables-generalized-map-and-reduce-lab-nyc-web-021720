@@ -3,8 +3,10 @@
 
 def my_own_map(source)
   i = 0
+  new_array = []
   while i < source.length do
-    yield(source[i])
+    new_array.push(yield(source[i]))
   i += 1
 end
-end 
+return new_array
+end
