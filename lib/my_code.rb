@@ -22,7 +22,7 @@ else
 end
 
 while i < source.length do
-  total += yield(total, array[i])
+  total += yield(total, source[i])
   i += 1
 end
 
