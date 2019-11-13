@@ -17,7 +17,7 @@ if sv
   total = starting_point
   i = 0
 else
-  total = source[i]
+  total = source[0]
   i = 1
 end
 
