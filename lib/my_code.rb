@@ -1,7 +1,7 @@
 # Your Code Here
 
 
-def my_own_map(source)
+def map(source)
   i = 0
   new_array = []
   while i < source.length do
